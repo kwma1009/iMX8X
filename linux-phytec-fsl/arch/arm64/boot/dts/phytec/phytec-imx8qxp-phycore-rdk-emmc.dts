@@ -1,0 +1,12 @@
+// SPDX-License-Identifier: GPL-2.0+
+/*
+ * Copyright (C) 2018 PHYTEC Messtechnik GmbH
+ * Author: Christian Hemp <c.hemp@phytec.de>
+ *
+ * Copyright (C) 2019-2021 PHYTEC America, LLC
+ */
+
+/dts-v1/;
+
+#include "phytec-imx8qxp-phycore-som.dtsi"
+#include "phytec-imx8qxp-pcm-942.dtsi"

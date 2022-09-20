@@ -1,0 +1,14 @@
+if TARGET_IMX8QXP_PCM065
+
+config SYS_BOARD
+	default "pcm065"
+
+config SYS_VENDOR
+	default "phytec"
+
+config SYS_CONFIG_NAME
+	default "pcm065"
+
+source "board/phytec/common/Kconfig"
+
+endif
