@@ -258,8 +258,8 @@
 	ethphy1: ethernet-phy@3 {
 		compatible = "ethernet-phy-ieee802.3-c22";
 		reg = <3>;
-		ti,rx-internal-delay = <DP83867_RGMIIDCTL_2_50_NS>;
-		ti,tx-internal-delay = <DP83867_RGMIIDCTL_2_50_NS>;
+		ti,rx-internal-delay = <DP83867_RGMIIDCTL_2_75_NS>;
+		ti,tx-internal-delay = <DP83867_RGMIIDCTL_2_00_NS>;
 		ti,fifo-depth = <DP83867_PHYCR_FIFO_DEPTH_8_B_NIB>;
 		ti,led-0-active-low;
 		ti,led-2-active-low;

@@ -228,12 +228,12 @@
 
 		pinctrl_adc: adcgrp {
 			fsl,pins = <
-                IMX8QXP_ADC_IN0_ADMA_ADC_IN0                   0x00000040
-                IMX8QXP_ADC_IN1_ADMA_ADC_IN1                   0x00000040
-                IMX8QXP_ADC_IN2_ADMA_ADC_IN2                   0x00000040
-                IMX8QXP_ADC_IN3_ADMA_ADC_IN3                   0x00000040
-                IMX8QXP_ADC_IN4_ADMA_ADC_IN4                   0x00000040
-                IMX8QXP_ADC_IN5_ADMA_ADC_IN5                   0x00000040
+                IMX8QXP_ADC_IN0_ADMA_ADC_IN0                   0x00000060
+                IMX8QXP_ADC_IN1_ADMA_ADC_IN1                   0x00000060
+                IMX8QXP_ADC_IN2_ADMA_ADC_IN2                   0x00000060
+                IMX8QXP_ADC_IN3_ADMA_ADC_IN3                   0x00000060
+                IMX8QXP_ADC_IN4_ADMA_ADC_IN4                   0x00000060
+                IMX8QXP_ADC_IN5_ADMA_ADC_IN5                   0x00000060
 			>;
 		};
 	};
